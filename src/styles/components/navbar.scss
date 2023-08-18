@@ -1,0 +1,13 @@
+.navbar {
+    @include d-flex;
+    @include s-btw;
+    min-height: 116px;
+    padding: 0 15px;
+    align-items: center;
+    position: sticky;
+
+  }
+.navbar__links {
+    @include d-flex;
+    gap: 40px;
+  }
